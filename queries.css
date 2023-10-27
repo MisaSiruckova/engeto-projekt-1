@@ -1,0 +1,403 @@
+@media only screen and (min-width: 470px) {
+.menu-desktop {
+    display: none;
+}
+
+.row {
+    margin-left: 5.2vw;
+    margin-right: 5.2vw;
+}
+
+/*****Large Mobile-Header*****/
+
+.background-img {
+    height: 780px;
+    object-fit: cover;
+}
+
+/*****Large Mobile-About Us*****/
+
+.about-us {
+    margin-right: 7.7%;
+    margin-left: 7.7%;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.about-us-heading {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.about-us-item {
+    margin-bottom: 30px;
+}
+.about-us-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/*****Large Mobile-What We Do*****/
+
+.what-we-do {
+    width: 100%;
+    height: 950px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.what-we-do-container-heading {
+    font-size: 32px;
+    padding: 5px;
+    margin-bottom: 32.5px;
+}
+.trips-container {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 40%;
+    height: 910px;
+    gap: 10px;
+}
+.trips-container-picture {
+    flex-basis: calc(100% / 2 - 10px / 2);
+    height: calc(100% / 5 - 40px / 5);
+}
+.trips-container-text {
+    width: 100%;
+    flex-basis: 100%;
+    height: calc(100% / 5 - 40px / 5);
+    margin: 0;
+    font-size: 32px;
+    padding-top: 7.5vh;
+    padding-bottom: 7.5vh;
+}
+.trips-container-picture img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/*****Large Mobile-What We Do*****/
+
+.go-container-heading {
+    margin-bottom: 45px;
+    top: 90px;
+}
+.go-container-text-btn button {
+    top: 350px;
+}
+
+@media only screen and (min-width: 510px) {
+
+    /*****Tablets-Gallery*****/
+
+    .gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-foto {
+    flex-basis: 50%;
+    height: 50%;
+}
+.gallery-foto img {
+    object-position: center;
+}
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    /*****Tablets-Navigation*****/
+
+.menu-desktop {
+    display: none;
+}
+
+
+/*****Tablets-Header*****/
+    
+.background-img {
+    height: 780px;
+}
+.backgroud-heading h1 {
+    font-size: 90px;
+    line-height: 90px;
+}
+
+
+/*****Tablets-About Us*****/
+
+.about-us {
+    margin: 100px 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-us-container {
+    height: 580px;
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: calc(100% / 2 - 130px);
+}
+.about-us-heading {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.about-us-item {
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.about-us-image {
+    flex-grow: 1;
+    flex-basis: calc(100% / 2 - 130px);
+}
+.about-us-image img {
+    height: 580px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*****Tablets-What We Do*****/
+
+.what-we-do {
+    height: 591px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.what-we-do-activities-container {
+    max-width: 856px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*****Tablets-Trips*****/
+
+.trips-container {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 700px;
+    gap: 10px;
+}
+.trips-container-text {
+    font-size: 32px;
+    padding: 12.5% 2%;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.trips-container-picture,
+.trips-container-text {
+    flex-basis: calc(100% / 3 - 20px / 3);
+    height: calc(100% / 3 - 20px / 3);
+}
+.trips-container-picture img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+/*****Tablets-Where do you what to go*****/
+
+.go-container {
+    height: 250px;
+    display: flex;
+    gap: 10px; 
+}
+.go-container-heading {
+    flex: 0 0 33.33%;
+    padding-right: 40px;
+}
+.go-container-text {
+    flex: 0 0 66.66%;
+}
+
+
+/*****Tablets-Reviews*****/
+
+.reviews {
+    height: 650px;
+}
+.reviews-container1 {
+    width: 490px;
+    margin: 10% auto;
+}
+.reviews-BertieAndFrank {
+    max-width: 856px;
+    display: flex;
+}
+.reviews-container2,
+.reviews-container3 {
+    width: 50%;
+}
+.reviews-container2 {
+    margin-left: 0;
+    margin-right: 2%;
+}
+.reviews-container3 {
+    margin-left: 2%;
+    margin-right: 0;
+}
+.reviews-container2-Bertie {
+    width: 100%;
+}
+.reviews-container3-Frank-img {
+    top: 0;
+}
+.reviews-container3-Frank {
+    top: 10rem;
+    width: 100%;
+}
+}
+
+@media only screen and (min-width: 992px) {
+
+.row {
+    width: 856px;
+    margin: 0 auto;
+}
+
+
+/*****Desktop-Navigation*****/
+
+.menu-hamburger {
+    display: none;
+}
+.menu-desktop {
+    display: flex;
+}
+
+
+/*****Desktop-Header*****/
+
+.background-img {
+    height: 804px;
+}
+.backgroud-heading {
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 11%;
+}
+.backgroud-heading h1 {
+    font-size: 96px;
+    line-height: 112.5px;
+}
+
+
+/*****Desktop-About Us*****/
+
+.about-us {
+    margin-top: 101px;
+    margin-bottom: 101px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-us-container {
+    height: 310px;
+    width: 385.68px;
+    margin-right: 45px;
+    margin-bottom: 0px;
+    padding: 0px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.about-us-heading {
+    font-size: 32px;
+    line-height: 37.5px;
+}
+.about-us-item {
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.about-us-image {
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+.about-us-image img {
+    height: 310px;
+    width: 100%;
+}
+
+
+/*****Desktop-What We Do*****/
+
+.what-we-do {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+
+/*****Desktop-Trips*****/
+
+.trips-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 706px;
+    gap: 10px;
+}
+.trips-container-text {
+    font-size: 32px;
+    padding: 12.5% 5%;
+    border-radius: 5px;
+    margin: 0;
+}
+.trips-container-picture,
+.trips-container-text {
+    flex-basis: calc(100% / 3 - 20px / 3);
+    height: calc(100% / 3 - 20px / 3);
+}
+.trips-container-picture img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+/*****Desktop-Where do you what to go*****/
+
+.go-container {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*****Desktop-Gallery*****/
+
+.gallery-foto img {
+    height: 420px;
+}
+
+
+/*****Desktop-Reviews*****/
+
+.reviews {
+    height: 650px;
+}
+.reviews-container1 {
+    width: 332px;
+    margin: 5% auto;
+}
+.reviews-BertieAndFrank {
+    max-width: 867px;
+}
+.reviews-container2 {
+    margin-left: 0;
+    margin-right: 5.5%;
+}
+.reviews-container3 {
+    margin-left: 5.5%;
+    margin-right: 0;
+}
+}

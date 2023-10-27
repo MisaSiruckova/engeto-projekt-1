@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.row {
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
+
+/*****Navigation *****/
+
+.navigation {
+  background-color: #33292a;
+  height: 66px;
+  width: auto;
+}
+.menu-desktop {
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  display: none;
+}
+.menu-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.item1 {
+  padding: 5px;
+  margin-top: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  margin-left: 20.27%;
+  color: #ffffff;
+  text-decoration: none;
+}
+.item2,
+.item3,
+.item4 {
+  padding: 5px;
+  margin: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.item5 {
+  padding: 5px;
+  margin-top: 16px;
+  margin-right: 20.27%;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu-hamburger {
+  list-style: none;
+  position: relative;
+  top: 20.5px;
+  bottom: 20.5px;
+}
+.menu-hamburger-item {
+  background-color: #fff;
+  width: 37.4px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  right: 5.2vw;
+}
+.line2 {
+  margin-top: 10px;
+}
+.line3 {
+  margin-top: 20px;
+}
+
+/*****Header *****/
+
+.background-img {
+  height: 780px;
+  background-image: url(scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.backgroud-heading {
+  width: 89%;
+  position: absolute;
+  bottom: 60px;
+  text-align: right;
+}
+.backgroud-heading h1 {
+  font-size: 42px;
+  line-height: 100%;
+  color: #fff;
+}
+
+/*****Section About-Us *****/
+
+.about-us {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+.about-us-heading {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.about-us-item {
+  margin-bottom: 30px;
+}
+.about-us-image {
+  height: 222.16px;
+  width: 332px;
+  margin: 0 auto;
+}
+.about-us-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/*****What We Do *****/
+
+.what-we-do {
+  height: 1138px;
+  max-width: 1440px;
+  background-color: #33292a;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.what-we-do-container {
+  width: 86.6%;
+  text-align: center;
+  flex-grow: 1;
+}
+.what-we-do-container-heading {
+  font-size: 32px;
+  padding: 5px;
+  margin-bottom: 32.5px;
+}
+.what-we-do-activities-container {
+  list-style: none;
+  flex-grow: 1;
+}
+.what-we-do-activities a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.icon {
+  margin: 20px;
+}
+.what-we-do-activities a svg {
+  fill: #ffffff;
+}
+
+/*****Trips*****/
+
+.trips-container {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+.trips-container-picture img {
+  height: 222px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.trips-container-text {
+  font-size: 24px;
+  text-align: center;
+  padding: 5px;
+  margin: 30px;
+  font-weight: bold;
+}
+
+/*****Where do you want to go *****/
+
+.go {
+  background-color: #644b4f;
+  height: 529px;
+  position: relative;
+}
+.go-container {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.go-container-heading {
+  font-size: 32px;
+  margin-bottom: 45px;
+}
+.go-container-text-item {
+  top: 180px;
+  font-size: 16px;
+  line-height: 18.75px;
+  margin-bottom: 20px;
+}
+.go-container-text-item p {
+  margin-bottom: 20px;
+}
+.go-container-text-btn button {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 13px 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+/*****Reviews *****/
+
+.reviews {
+  position: relative;
+  height: 1100px;
+}
+.reviews-container1 {
+  text-align: center;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+}
+.reviews-container1-heading {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.reviews-container2 {
+  position: relative;
+}
+.reviews-container2-Bertie-img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.reviews-container2-Bertie-img img {
+  height: 111px;
+  width: 111px;
+  border-radius: 50%;
+  text-align: center;
+  object-fit: cover;
+}
+.reviews-container2-Bertie {
+  position: absolute;
+  top: 10rem;
+  text-align: center;
+}
+.reviews-container2-Bertie-item1 {
+  margin-bottom: 20px;
+}
+.reviews-container3 {
+  position: relative;
+}
+.reviews-container3-Frank-img {
+  position: absolute;
+  top: 27rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+.reviews-container3-Frank-img img {
+  height: 111px;
+  width: 111px;
+  border-radius: 50%;
+  text-align: center;
+  object-fit: cover;
+}
+.reviews-container3-Frank {
+  position: absolute;
+  top: 37rem;
+  text-align: center;
+}
+.reviews-container3-Frank-item1 {
+  margin-bottom: 20px;
+}
+
+/*****Gallery*****/
+
+.gallery-foto {
+  display: flex;
+  flex-direction: column;
+}
+.gallery-foto img {
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom right;
+}
+
+/*****Footer*****/
+
+footer {
+  height: 94px;
+  background-color: #333333;
+  position: relative;
+  text-align: center;
+}
+.footer {
+  width: 235px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer-heading1 {
+  margin-bottom: 10px;
+}
+.footer-heading1 a {
+  color: #efa69d;
+  font-size: 12px;
+}
+.footer-heading2 {
+  font-weight: 700;
+  font-size: 10px;
+  color: #ffffff;
+}
